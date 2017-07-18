@@ -1,0 +1,246 @@
+.section_padding{
+    padding: 85px 0;
+}
+
+/* heading section */
+
+.heading-section{
+    position: relative;
+}
+.heading-bg{
+    background: url(../img/heading-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+}
+.nav.navbar-nav li{
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+.nav.navbar-nav li a{
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 35px;
+}
+.nav.navbar-nav li.active::before{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #777;
+    top: 0;
+    left: 0;
+    content: "";
+}
+.main-menu{
+    position: relative;
+    padding-right: 80px;
+}
+.social-icon{
+    position: absolute;
+    top: 35px;;
+    right: 0;
+    
+        
+}
+.social-icon a{
+    color: yellow;
+    display: inline-block;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.title-section{
+    padding: 135px 0;
+}
+.header-text h1{
+    background: url(../img/title-icon.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 80px;
+    color: #ffffff;
+    font-size: 80px;
+    margin-bottom: 35px;
+}
+.filled{
+    position: relative;
+    padding: 20px 50px;
+    margin: 0 10px;
+    color: white;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.filled:after{
+    position: absolute;
+    background: #191913;
+    opacity: .8;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.filled.yellow:after{
+    position: absolute;
+    background: #9d8e5a;
+    opacity: .7;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+.about-area{
+    background: gray;
+}
+.section-title{
+    background: url(../img/title-icon-yellow.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.section-title p{
+    font-size: 13px;
+}
+.author-photo{
+    padding-top: 50px;
+}
+
+
+.paralx-section-area{
+    position: relative;
+    
+}
+.parallax-bg{
+    position: absolute;
+    background: url(../img/paralax-bg.jpg);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    background-size: cover;
+}
+.paralax-content{
+    padding: 80px 35px;
+    z-index: 1;
+    position: relative;
+    color: white;
+}
+.paralax-content p{
+    padding: 10px 0;
+}
+.paralax-content h1{
+    
+}
+.paralax-content::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #040504;
+    z-index: -1;
+    opacity: .6;
+    content: "";
+}
+.food-content h1{
+    color: #c89f2d;
+}
+
+.food-list-area{
+    background: gray;
+}
+.food-content h3{
+    border-bottom: 1px solid #ded0a0;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #c89f2d;
+}
+
+.food-content h3 span{
+    float: right;
+}
+
+.special-offer{
+    border: 1px solid red;
+    padding: 5px;
+    position: relative;
+}
+.special-offer:before{
+    position: absolute;
+    top: -27px;
+    right: -1px;
+    content: "special";
+    padding: 3px 7px;;
+    background: #c89f2d;
+}
+.testimonial-area{
+    position: relative;
+}
+.testimonial-bg{
+    position: absolute;
+    background: #ded0a0;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.testimonial-area .testimonial-content{
+    position: relative;
+    z-index: 1;
+    padding: 10px 60px;
+    line-height: 30px;
+}
+.testimonial-content h1{
+    color: #ffffff;
+    position: relative;
+}
+.testimonial-content h1:after{
+    position: absolute;
+    left: -20px;;
+    top: 70px;
+    content: "k";
+    color: gray;
+}
+
+.testimonial-content:after{
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+.menu-section img{}
+
+.form-section label{
+    color: #c89f2d;
+}
+.form-section input,select{
+    width: 100%;
+    height: 38px;
+}
+.form-section input,select :focus{
+}
+.contact-area button{
+    margin-top: 30px;
+    padding: 5px 50px;
+    color: white;
+    background: #c89f2d;
+    border:none;
+}
+.footer-area{
+    background: #555;
+    color: white;
+}
